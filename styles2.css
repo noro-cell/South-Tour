@@ -1,0 +1,232 @@
+
+@font-face{
+  font-family:"Bariol";
+  src:url("fonts/bariol.ttf");
+}
+@font-face{
+  font-family:"Bariolthin";
+  src:url("fonts/bariolthin1.ttf");
+}
+@font-face{
+  font-family:"cooperm";
+  src:url("fonts/cooperm.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+body { overflow-x: hidden; }
+body {
+    background: linear-gradient(#ffffff,#ffffff);
+    min-height: 100vh;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("https://images3.alphacoders.com/102/102459.jpg");
+  background-size: cover;
+}
+
+
+.box{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  box-shadow: 0 0 10px rgb black(0,0,0,1);
+}
+.box h1{
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #EEC218;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #00355F;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #EEC218;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #EEC218;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #EEC218;
+}
+
+.image {
+  width: 80px;
+  height: 85px;
+  margin-left: px;
+  }
+  .image {
+      display: inline-block;
+  }
+  
+  .banniere{
+      width: 100%;
+      background-color: #00355F;
+  }
+  
+  .titre {
+      text-align: center;
+      font-family: cooperm;
+      color: #EEC218;
+      margin: -50px;
+  }
+  .nav1 {
+      float: right;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .nav1 ul li {
+      display: inline-block;
+      margin-right: 10px;
+     
+  }
+  
+  .nav1 ul li a {
+      text-decoration: none;
+      }
+  .nav1 ul li a:visited{
+      color:#ffffff;
+  }
+      .nav1 ul li a:hover {
+          color: #F9DC09;
+      }
+      
+      
+      
+      .nav2 {
+          font-family: Bariolthin ;
+          text-align: center;
+          width: 2000px;
+          margin: 80px;
+          
+      }
+      .nav2 ul li  {
+          display: inline-block;
+          margin-right: 10px;
+      }
+  
+      .nav2 ul li {
+  
+          block-size: 15px;
+          background-color: #F9DC09;
+         
+      }
+   
+  
+  
+  
+      .nav2 ul li a {
+          text-decoration: none;
+          }
+      .nav2 ul li a:visited{
+          color: black;
+      }
+          .nav2 ul li a:hover {
+              color: #00355F;
+          }
+
+
+          .location {
+  
+            display: block;
+              margin : auto;
+            
+            } 
+    
+            .footservice {
+                width: 1200px;
+                margin: 0 auto;
+                display: flex ;
+                justify-content: center;
+                align-items: flex-start;
+                font-size: 20px;
+                padding:50px 0 100px ;
+            }
+    
+            .bloc {
+                width: 90%;
+                margin: 0 30px;
+    
+            }
+    
+            footer {
+                flex-shrink: 0;
+                border-top:1px dashed transparent;
+                width: 100%;
+                background: transparent;
+                color: white;
+            }
+     
+   
+            .contenu-footer {
+                width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                font-size: 20px;
+                padding: 50px 0 100px;
+            }
+    
+            
+         .contenu-footer ul li a {
+             text-decoration: none;
+            
+    
+         }
+    
+         ul{
+             list-style: none;
+    }
+        
+    .contenu-footer ul li a:hover{
+        color: #F9DC09;
+    }
+    .contenu-footer ul li a:visited{
+        color: white;
+    }
+
+    body{
+      overflow-y: hidden;
+    }
+    footer {position: absolute; bottom: 0;}

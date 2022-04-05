@@ -1,0 +1,164 @@
+@font-face{
+    font-family:"Bariol";
+    src:url("fonts/bariol.ttf");
+}
+@font-face{
+    font-family:"Bariolthin";
+    src:url("fonts/bariolthin1.ttf");
+}
+@font-face{
+    font-family:"cooperm";
+    src:url("fonts/cooperm.ttf");
+}
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.image {
+    display: inline-block;
+}
+
+.image {
+    width: 80px;
+    height: 85px;
+    margin-left: px;
+    }
+
+
+
+
+.banniere{
+    width: 100%;
+    background-color: #00355F;
+}
+
+h1 {
+    text-align: center;
+    font-family: cooperm;
+    color:#F9DC09 ;
+    margin: -50px;
+}
+.nav1 {
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav1 ul li {
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    }
+.nav1 ul li a:visited{
+    color: #ffffff;
+}
+    .nav1 ul li a:hover {
+        color: #F9DC09;
+    }
+    
+    
+    
+    .nav2 {
+        font-family: Bariolthin ;
+        text-align: center;
+        width: 2000px;
+        margin: 80px;
+        
+    }
+    .nav2 ul li  {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .nav2 ul li {
+
+        block-size: 15px;
+        background-color: #F9DC09;
+       
+    }
+ 
+
+
+
+    .nav2 ul li a {
+        text-decoration: none;
+        }
+    .nav2 ul li a:visited{
+        color: black;
+    }
+        .nav2 ul li a:hover {
+            color: #00355F;
+        }
+        
+
+
+
+
+        table{
+    border-collapse: collapse;
+}
+td {
+    border: 5px solid black;
+}
+
+table td{
+ font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+
+table {
+    margin: auto;
+}
+
+
+body{        
+background-image: url('https://images3.alphacoders.com/817/81779.jpg');
+background-size: cover;
+
+}
+
+
+
+.box{
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    box-shadow: 0 0 10px rgb black(0,0,0,1);
+  }
+
+
+  .pied {
+    margin-top:48%;
+    column-count:3;
+}
+.pied ul li a:hover{
+color: #F9DC09;
+}
+.pied ul li a:visited{
+color: white;
+}
+
+body{
+overflow-x: hidden;
+
+}
+
